@@ -3,7 +3,7 @@ import Foundation
 
 var subscriptions = Set<AnyCancellable>()
 
-/// "Combinified" notification center.
+/// "Combineified" notification center.
 example(of: "NotificationCenter") {
   // Create a notification center instance.
   let notificationCenter = NotificationCenter.default
